@@ -104,7 +104,7 @@ shared_libraries:
   - libglu1-mesa-dev
   - freeglut3-dev
   - mesa-common-dev
-
+  - libssl-dev
 
 github_packages:
   - brendan-r/brocks
