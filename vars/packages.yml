@@ -1,6 +1,7 @@
 ---
 cran_packages:
   - feather
+  - mailR
   - data.table
   - remotes
   - devtools
@@ -8,6 +9,10 @@ cran_packages:
   - zoo
   - aws.s3
   - bizdays
+  - matrixStats
+  - readxl
+  - XLConnect
+  - data.tree
   - Cairo
   - caret
   - CoxBoost
@@ -16,10 +21,12 @@ cran_packages:
   - DMwR
   - doMC
   - doParallel
+  - gbm
   - doRNG
   - dplyr
   - e1071
   - FinCal
+  - rdrop2
   - gdata
   - ggplot2
   - ggRandomForests
@@ -34,6 +41,7 @@ cran_packages:
   - ISOweek
   - jsonlite
   - knitr
+  - igraph
   - laeken
 ##  - limma needed for what? (from bioconductor)
   - lubridate
@@ -66,12 +74,15 @@ cran_packages:
   - rmarkdown
   - rms
   - RODBC
+  - bit64
 ##  - RQuantLib
   - servr
   - shiny
   - SparkR
   - splines
   - stringr
+  - ggmap
+  - googlesheets
   - survival
 ##  - termstrc deleted from cran
   - tidyverse
@@ -81,7 +92,10 @@ cran_packages:
   - utils
   - VIM
   - WriteXLS
-##  - xlsx
+  - egg
+  - scales
+  - hash
+  - xlsx
   - xts
   - yaml
   - YieldCurve
